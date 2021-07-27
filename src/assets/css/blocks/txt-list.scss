@@ -1,0 +1,30 @@
+.txt__list {
+    background: #FBF9FF;
+    border-radius: 50px;
+    padding: 5.8rem 7.4rem;
+    position: relative;
+
+    &.txt__list--red {
+        background: $secondary-color;
+
+        .txt__list-item {
+            color: #FFF;
+        }
+    }
+    &-list {
+        padding-left: 3rem;
+    }
+    &-item {
+        list-style-type: disc;
+        font-weight: bold;
+        font-size: 1.9rem;
+        line-height: 3.8rem;
+        color: #343434;
+    }
+    .btn {
+        position: absolute;
+        right: 0rem;
+        bottom: 0rem;
+        transform: translate(0rem, 50%);
+    }
+}
