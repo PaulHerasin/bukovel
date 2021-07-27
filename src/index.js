@@ -6,3 +6,5 @@ import './assets/css/fonts.scss';
 
 import './assets/css/blocks/header.scss';
 import './assets/css/blocks/footer.scss';
+import './assets/css/blocks/reviews.scss';
+import './assets/js/reviews.js';

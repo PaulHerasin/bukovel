@@ -72,6 +72,43 @@
 		margin-bottom: 2rem;
 	}
 
+	&__socials {
+		display: flex;
+		align-items: center;
+	}
+
+	&__social {
+		margin-right: 1.95rem;
+
+		a {
+			display: inline-block;
+
+			svg {
+				width: 4rem;
+				height: 4rem;
+			}
+		}
+
+		&:last-of-type {
+			margin-right: 0;
+		}
+	}
+
+	&__social-hover {
+		.fill,
+		path {
+			transition: 0.5s;
+		}
+		&:hover {
+			.fill {
+				fill: #ec1c24;
+			}
+			path {
+				fill: #ffffff;
+			}
+		}
+	}
+
 	&__bottom {
 		padding: 2.8rem 0 2.3rem;
 		font-size: 1.5rem;
