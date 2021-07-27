@@ -46,17 +46,17 @@ body {
 	}
 }
 
-// body {
-// 	font-family: $primary-font;
-// 	color: #fff;
-// 	display: flex;
-// 	flex-direction: column;
-// 	justify-content: space-between;
-// 	min-height: 100vh;
-// 	font-size: 1.6rem;
-// 	font-weight: 500;
-// 	user-select: none;
-// }
+body {
+	font-family: $primary-font;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
+	font-size: 1.6rem;
+	font-weight: 500;
+	user-select: none;
+}
 
 main {
 	flex-grow: 1;
