@@ -15,3 +15,6 @@ import './assets/css/blocks/table.scss';
 // JS
 import './assets/js/header';
 import './assets/js/drop-down-nav';
+
+import './assets/css/blocks/header.scss';
+import './assets/css/blocks/footer.scss';
