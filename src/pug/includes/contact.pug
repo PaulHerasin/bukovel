@@ -1,0 +1,44 @@
+section.contact
+  .center-wrap
+    .contact__wrap
+      .contact__left
+        h2.contact__title.simple-title Контакты
+        p.contact__text 
+          | Компания «Трансфер на Буковель» предоставляет
+          | пассажирские перевозки на современных и комфортабельных автомобилях Volkswagen, Mercedes, Skoda и др. по Западной Украине. 
+          <br><br>
+          | Связаться с менеджерами компании «Трансфер на Буковель» <br>
+          | Вы сможете в любое для Вас удобное время по адресу:
+  
+        ul.contact__list
+          li.contact__item 
+            address
+              img(src="assets/images/svg/contact-adress.svg", alt="") 
+              p г. Ивано-Франковск, ул. Мазепы, 5, оф. 1
+
+          li.contact__item
+            a(href="tel:+380673464489")
+              img(src="assets/images/svg/contact-phone.svg", alt="") 
+              p +38 (067) 346 44 89
+              
+          li.contact__item
+            a(href="mailto:transferbukovel@gmail.com")
+              img(src="assets/images/svg/contact-mail.svg", alt="") 
+              p transferbukovel@gmail.com
+
+      .contact__right
+        form.contact__form 
+            h2.contact__form-title ФОРМА ОБРАТНОЙ СВЯЗИ:
+            .contact__inputs-wrap
+              label.contact__inputs-label(for='text') Введите Ваше имя:<span>*</span>
+              input.contact__inputs-field(type='text' placeholder="Иван Иванов" id='text' name='text' autocomplete='off' required='' minlength='2')
+            .contact__inputs-wrap
+              label.contact__inputs-label(for='number') Введите Ваш телефон:<span>*</span>
+              input.contact__inputs-field(type='number' placeholder="+38 096 000 00 00" id='number' name='number' autocomplete='off' required='')
+            .contact__inputs-wrap
+              label.contact__inputs-label(for='email') Введите Ваш телефон:<span>*</span>
+              input.contact__inputs-field(type='email' placeholder="Введите Ваш email:*" id='email' name='email' autocomplete='off' required='')
+            .contact__inputs-wrap
+              label.contact__inputs-label(for='textarea') Введите текст сообщения:
+              textarea.contact__inputs-textarea.contact__inputs-field(name='textarea' placeholder="Введите текст..." id='textarea')
+            button.contact__inputs-btn.btn(type='submit' id='button') отправить
