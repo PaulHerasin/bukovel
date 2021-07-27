@@ -60,10 +60,26 @@
 	}
 
 	&__more {
+		font-weight: normal;
 		font-size: 1.8rem;
 		line-height: 2.6rem;
 		color: #ec1c24;
-		text-decoration-line: underline;
+		position: relative;
+		display: inline-block;
+
+		&::before {
+			content: '';
+			position: absolute;
+			bottom: 3px;
+			left: 0;
+			height: 1px;
+			background-color: rgba(237, 29, 36, 0);
+			width: 100%;
+			transition: 0.5s;
+		}
+		&:hover::before {
+			background-color: rgb(237, 29, 35);
+		}
 	}
 
 	&__title {
@@ -75,6 +91,7 @@
 		margin-bottom: 2.5rem;
 	}
 	&__text {
+		font-weight: normal;
 		font-size: 1.8rem;
 		line-height: 2.6rem;
 		color: #848484;
