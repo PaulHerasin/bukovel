@@ -18,3 +18,7 @@ import './assets/js/drop-down-nav';
 
 import './assets/css/blocks/header.scss';
 import './assets/css/blocks/footer.scss';
+import './assets/css/blocks/reviews.scss';
+import './assets/css/blocks/contact.scss';
+import './assets/css/blocks/product.scss';
+import './assets/js/reviews.js';

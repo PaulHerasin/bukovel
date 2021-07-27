@@ -15,18 +15,18 @@
 	text-transform: uppercase;
 	font-family: $primary-font;
 	border: 1px solid rgba($secondary-color, 0);
-    border-radius: 50px;
+	border-radius: 50px;
 
-    &.min-btn {
-        font-size: 1.4rem;
-        line-height: 4.5rem;
-    }
+	&.min-btn {
+		font-size: 1.4rem;
+		line-height: 4.5rem;
+	}
 
-	@media screen and (max-width:$large_tablet) {
+	@media screen and (max-width: $large_tablet) {
 		line-height: 6.2rem;
 	}
 
-	@media screen and (max-width:$large_tablet) {
+	@media screen and (max-width: $large_tablet) {
 		font-size: 1.8rem;
 	}
 
@@ -50,5 +50,18 @@
 			background-color: $secondary-color;
 			color: #fff;
 		}
+	}
+}
+
+.btn-white {
+	background-color: transparent;
+	color: $secondary-color;
+	border: 1px solid $secondary-color;
+
+	&:hover,
+	&--active {
+		background: $secondary-color;
+		color: #fff;
+		border: 1px solid rgba($secondary-color, 0);
 	}
 }
