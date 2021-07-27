@@ -1,0 +1,132 @@
+.product {
+	background: #f8f8f8;
+	padding: 7.8rem 0 8.9rem;
+
+	&-title {
+		margin-bottom: 7.2rem;
+	}
+
+	// &__card-box {
+	// 	width: calc((100% / 3) - 4rem);
+	// }
+
+	&__card {
+		width: calc((100% / 3) - 4rem);
+		height: auto;
+		padding: 2.5rem 2.5rem 2.9rem;
+		background: #ffffff;
+		border-radius: 2.5rem;
+		margin-bottom: 6.5rem;
+		transition: 0.5s;
+		box-shadow: 0px 1rem 2rem rgba(0, 0, 0, 0.04),
+			0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+
+		// &:hover {
+		// 	box-shadow: none;
+		// 	opacity: 0.7;
+		// }
+
+		&-img {
+			width: 100%;
+			height: 18.2rem;
+			border-radius: 2.5rem;
+			display: inline-block;
+			margin-bottom: 3.8rem;
+			overflow: hidden;
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+
+		&-title {
+			font-weight: bold;
+			font-size: 2.4rem;
+			line-height: 2.2rem;
+			color: #161615;
+			margin-bottom: 3.03rem;
+		}
+
+		&-address,
+		&-info {
+			display: flex;
+			align-items: center;
+			font-weight: 400;
+			font-size: 1.6rem;
+			line-height: 1.4rem;
+			color: #c6c6c6;
+
+			img {
+				margin-right: 0.9rem;
+			}
+		}
+		&-info:first-of-type {
+			margin-right: 2.5rem;
+		}
+		&-wrap {
+			display: flex;
+			align-items: center;
+			margin-bottom: 3.6rem;
+		}
+		&-address {
+			font-weight: 300;
+			color: #6e7684;
+			margin-bottom: 1.2rem;
+		}
+
+		&-bottom {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+		&-price {
+			font-weight: bold;
+			font-size: 2.4rem;
+			line-height: 2.2rem;
+			color: #161615;
+
+			span {
+				font-size: 1.6rem;
+				line-height: 2.2rem;
+			}
+		}
+		&-btn {
+			padding: 0 5rem;
+			font-size: 1.4rem;
+			line-height: 1.4rem;
+			line-height: 4.5rem;
+		}
+	}
+
+	&__card-hidden {
+		height: 0;
+		opacity: 0;
+	}
+
+	&__btn {
+		display: block;
+		margin: -1rem auto 0rem;
+	}
+
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	&__top-list {
+		margin-bottom: 4.5rem;
+	}
+
+	&__top-item {
+		margin-right: 2.5rem;
+		margin-bottom: 2rem;
+
+		&:last-of-type {
+			margin-right: 0;
+		}
+	}
+}
