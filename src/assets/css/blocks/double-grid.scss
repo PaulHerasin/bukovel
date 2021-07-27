@@ -1,0 +1,13 @@
+.double-grid {
+    display: flex;
+    justify-content: space-between;
+
+    &--mb {
+        margin-bottom: 6rem;
+    }
+
+    &__left,
+    &__right {
+        width: calc(50% - 3.1rem);
+    }
+}
