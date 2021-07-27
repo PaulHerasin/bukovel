@@ -3,6 +3,7 @@
 	margin: 0px;
 	padding: 0px;
 	outline: none;
+	font-family: 'Gilroy';
 }
 
 img {
@@ -62,21 +63,21 @@ main {
 	flex-grow: 1;
 }
 
-// .center-wrap {
-// 	max-width: 1430px;
-// 	width: 100%;
-// 	margin: 0px auto;
-// 	padding: 0px 15px;
+.center-wrap {
+	max-width: 1330px;
+	width: 100%;
+	margin: 0px auto;
+	padding: 0px 15px;
 
-// 	@media screen and (max-width: $large_desktop) {
-// 		max-width: calc(100% - 80px);
-// 	}
+	@media screen and (max-width: $large_desktop) {
+		max-width: calc(100% - 80px);
+	}
 
-// 	@media screen and (max-width: $large_tablet) {
-// 		max-width: $large_mobile;
-// 		padding: 0px 20px;
-// 	}
-// }
+	@media screen and (max-width: $large_tablet) {
+		max-width: $large_mobile;
+		padding: 0px 20px;
+	}
+}
 
 h1,
 h2,
