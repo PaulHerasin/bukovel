@@ -19,9 +19,25 @@
 		padding-bottom: 1.2rem;
 	}
 
+	&__call {
+		&-link {
+			display: flex;
+			align-items: center;
+			font-weight: 600;
+			font-size: 2.2rem;
+			line-height: 2.6rem;
+			color: #FFFFFF;
+
+			img {
+				margin-right: 1.5rem;
+			}
+		}
+	}
+
 	&__wrap {
 		display: flex;
 		align-items: center;
+		justify-content: space-between;
 		position: relative;
         max-width: 1300px;
         margin: 0 auto;
@@ -165,6 +181,9 @@
             white-space: nowrap;
             transition: all 0.5s;
             color: $primary-color;
+			font-size: 1.8rem;
+			line-height: 2.1rem;
+			font-weight: 700;
             &:hover {
                 color: $simple-color; 
             }

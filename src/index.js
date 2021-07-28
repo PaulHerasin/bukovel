@@ -11,6 +11,7 @@ import './assets/css/blocks/txt-blocks.scss';
 import './assets/css/blocks/content.scss';
 import './assets/css/blocks/txt-list.scss';
 import './assets/css/blocks/table.scss';
+import './assets/css/blocks/title-block.scss';
 
 // JS
 import './assets/js/header';
