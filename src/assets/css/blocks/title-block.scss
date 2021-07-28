@@ -1,0 +1,32 @@
+.title-block {
+    background: #000;
+    height: 800px;
+    background-image: url("~img/png/bg-img-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__wrap {
+
+    }
+
+    .main-title {
+        font-weight: bold;
+        font-size: 6.4rem;
+        line-height: 7.7rem;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 2.2rem;
+    }
+
+    .main-title__sub {
+        font-weight: 500;
+        font-size: 2.8rem;
+        line-height: 3.3rem;
+        color: #FFFFFF;
+        text-transform: lowercase;
+    }
+}
